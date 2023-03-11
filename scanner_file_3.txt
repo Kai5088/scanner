@@ -1,0 +1,190 @@
+#<stdio.h> 
+float iffor, af_fa ; 
+int ai, bi, *ci, id ; 
+iffor = (float) ai + ib - ci ; 
+while (bi != (-5))  ifelse = ai * 2 ; 
+scanf ("%f", &fa) ; 
+iF (ai > 5)  id = 5 ; 
+ELsEIf (ai < (-2))  id = 10 ; 
+elSe id = 10 ; 
+af_fa = 3.6 * ci ; 
+*iffor = *ci / 2 ; 
+ai = bi & id ; 
+bi = ai % id ; 
+
+
+1.token # belongs to punctuation
+2.token < belongs to Comparator
+3.token stdio.h belongs to Undefined token
+4.token >  belongs to skipped token
+5.token float belongs to ReservedWord
+6.token iffor belongs to Identifier
+7.token , belongs to punctuation
+8.token af_fa belongs to Identifier
+9.token ; belongs to punctuation
+10.token int belongs to ReservedWord
+11.token ai belongs to Identifier
+12.token , belongs to punctuation
+13.token bi belongs to Identifier
+14.token , belongs to punctuation
+15.token *ci belongs to Pointer
+16.token , belongs to punctuation
+17.token id belongs to Identifier
+18.token ; belongs to punctuation
+19.token iffor belongs to Identifier
+20.token = belongs to Operator
+21.token ( belongs to bracket
+22.token float belongs to ReservedWord
+23.token ) belongs to bracket
+24.token ai belongs to Identifier
+25.token + belongs to Operator
+26.token ib belongs to Undefined token
+27.token  - ci ;  belongs to skipped token
+28.token while belongs to ReservedWord
+29.token ( belongs to bracket
+30.token bi belongs to Identifier
+31.token != belongs to Comparator
+32.token ( belongs to bracket
+33.token - belongs to Operator
+34.token 5 belongs to Constant
+35.token ) belongs to bracket
+36.token ) belongs to bracket
+37.token ifelse belongs to Undefined token
+38.token  = ai * 2 ;  belongs to skipped token
+39.token scanf belongs to ReservedWord
+40.token ( belongs to bracket
+41.token " belongs to punctuation
+42.token %f belongs to format specifier
+43.token " belongs to punctuation
+44.token , belongs to punctuation
+45.token &fa belongs to Undefined token
+46.token ) ;  belongs to skipped token
+47.token iF belongs to ReservedWord
+48.token ( belongs to bracket
+49.token ai belongs to Identifier
+50.token > belongs to Comparator
+51.token 5 belongs to Constant
+52.token ) belongs to bracket
+53.token id belongs to Identifier
+54.token = belongs to Operator
+55.token 5 belongs to Constant
+56.token ; belongs to punctuation
+57.token ELsEIf belongs to ReservedWord
+58.token ( belongs to bracket
+59.token ai belongs to Identifier
+60.token < belongs to Comparator
+61.token ( belongs to bracket
+62.token - belongs to Operator
+63.token 2 belongs to Constant
+64.token ) belongs to bracket
+65.token ) belongs to bracket
+66.token id belongs to Identifier
+67.token = belongs to Operator
+68.token 10 belongs to Constant
+69.token ; belongs to punctuation
+70.token elSe belongs to ReservedWord
+71.token id belongs to Identifier
+72.token = belongs to Operator
+73.token 10 belongs to Constant
+74.token ; belongs to punctuation
+75.token af_fa belongs to Identifier
+76.token = belongs to Operator
+77.token . belongs to punctuation
+78.token 3.6 belongs to Constant
+79.token *ci belongs to Pointer
+80.token ; belongs to punctuation
+81.token *iffor belongs to Undefined token
+82.token  = *ci / 2 ;  belongs to skipped token
+83.token ai belongs to Identifier
+84.token = belongs to Operator
+85.token bi belongs to Identifier
+86.token & belongs to Operator
+87.token id belongs to Identifier
+88.token ;  belongs to punctuation
+89.token bi belongs to Identifier
+90.token = belongs to Operator
+91.token ai belongs to Identifier
+92.token % belongs to Operator
+93.token id belongs to Identifier
+94.token ; belongs to punctuation
+
+
+------------------------
+
+
+Total: 94 tokens
+
+
+Reserved word: 8
+int	
+float	(x2)
+if	
+else	
+elseif	
+while	
+scanf	
+
+
+Identifier: 20
+af_fa	(x2)
+ai	(x6)
+bi	(x4)
+id	(x6)
+iffor	(x2)
+
+
+Constant: 7
+10	(x2)
+2	
+3.6	
+5	(x3)
+
+
+Operator: 12
++	
+-	(x2)
+%	
+=	(x7)
+&
+
+
+Comparator: 4
+!=	
+<	(x2)
+>	
+
+
+Bracket: 13
+(	(x7)
+)	(x6)
+
+
+Format specifier: 1
+%f	
+
+
+Pointer: 2
+*ci	(x2)
+
+
+Punctuation: 16
+"	(x2)
+#	
+,	(x5)
+;	(x8)
+
+
+Undefined token: 5
+&fa		
+*iffor	
+ib	
+ifelse	
+stdio.h	
+
+
+Skipped token: 5
+ - ci ; 	
+ = *ci / 2 ; 	
+ = ai * 2 ; 		
+> 	
+d ; 	

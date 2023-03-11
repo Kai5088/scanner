@@ -1,0 +1,461 @@
+#include<stdlib.h> 
+#include<stdio.h> 
+main 
+{ 
+int ia, ib, *ic, id ; 
+float fa, fb_c ; 
+char ca, cb ; 
+cb = 'Y' ; 
+for (ia = 0 ; ia <= 10; ia++) { 
+while (ib > 2) { 
+fb_c = ((*ic) ^ ib) / fa; 
+ib = ib - 2 ; 
+} 
+do { *ic = ib * (-5) ; fa = fa / 0.7 ;   // do-while loop 
+} while (fa < 2) ; 
+for (id = 10 ; id < 0 ; id--) 
+ib = (int) ib + 3.6 * fa / id ; 
+} 
+if ((id <= 2) | (ib >= 3))  fa = ia - *ic / 3.6 ; 
+elseif ((id == 0) & (ib < 3) & (ib != 0))  ia = fa * fb_c % 3 ; 
+elseif ((id > 10) & (ib == 0))  fa = ia ^ (-5) ; 
+else  ia = (int) 0.7 * fb_c / fa ; 
+switch (cb) {   /*switch case*/ 
+case ('A')  fb_c = (*ic) * fb_c / fa ; 
+case ('E')  ib = ia + ib - (*ic) ; 
+case ('H')  ib = (ia ^ 2) % 3 ; 
+} 
+scanf ("Integer: %d", &ia) ;   /* scanf // 
+                                                scanf */ 
+scanf ("%c", &ca) ; 
+printf ("Random numbers: %c and %d %f Done!\n", cb, ib, fa) ; 
+printf ("%f is a float\t\\%c is a char\t%d\n", fb_c, ca, id) ; 
+return 
+} 
+ 
+ 
+
+
+1.token # belongs to punctuation
+2.token include belongs to ReservedWord
+3.token <stdlib.h> belongs to LibraryName
+4.token # belongs to punctuation
+5.token include belongs to ReservedWord
+6.token <stdio.h> belongs to LibraryName
+7.token main belongs to ReservedWord
+8.token { belongs to bracket
+9.token int belongs to ReservedWord
+10.token ia belongs to Identifier
+11.token , belongs to punctuation
+12.token ib belongs to Identifier
+13.token , belongs to punctuation
+14.token *ic belongs to Pointer
+15.token , belongs to punctuation
+16.token id belongs to Identifier
+17.token ; belongs to punctuation
+18.token float belongs to ReservedWord
+19.token fa belongs to Identifier
+20.token , belongs to punctuation
+21.token fb_c belongs to Identifier
+22.token ; belongs to punctuation
+23.token char belongs to ReservedWord
+24.token ca belongs to Identifier
+25.token , belongs to punctuation
+26.token cb belongs to Identifier
+27.token ; belongs to punctuation
+28.token cb belongs to Identifier
+29.token = belongs to Operator
+30.token 'Y' belongs to Character
+31.token ; belongs to punctuation
+32.token for belongs to ReservedWord
+33.token ( belongs to bracket
+34.token ia belongs to Identifier
+35.token = belongs to Operator
+36.token 0 belongs to Constant
+37.token ; belongs to punctuation
+38.token ia belongs to Identifier
+39.token <= belongs to Comparator
+40.token 10 belongs to Constant
+41.token ; belongs to punctuation
+42.token ia belongs to Identifier
+43.token + belongs to Operator
+44.token ) belongs to bracket
+45.token { belongs to bracket
+46.token while belongs to ReservedWord
+47.token ( belongs to bracket
+48.token ib belongs to Identifier
+49.token > belongs to Comparator
+50.token 2 belongs to Constant
+51.token ) belongs to bracket
+52.token { belongs to bracket
+53.token fb_c belongs to Identifier
+54.token = belongs to Operator
+55.token ( belongs to bracket
+56.token ( belongs to bracket
+57.token *ic belongs to Pointer
+58.token ) belongs to bracket
+59.token ^ belongs to Operator
+60.token ib belongs to Identifier
+61.token ) belongs to bracket
+62.token / belongs to Operator
+63.token fa belongs to Identifier
+64.token ; belongs to punctuation
+65.token ib belongs to Identifier
+66.token = belongs to Operator
+67.token ib belongs to Identifier
+68.token - belongs to Operator
+69.token 2 belongs to Constant
+70.token ; belongs to punctuation
+71.token } belongs to bracket
+72.token do belongs to ReservedWord
+73.token { belongs to bracket
+74.token *ic belongs to Pointer
+75.token = belongs to Operator
+76.token ib belongs to Identifier
+77.token * belongs to Operator
+78.token ( belongs to bracket
+79.token -5 belongs to Constant
+80.token ) belongs to bracket
+81.token ; belongs to punctuation
+82.token fa belongs to Identifier
+83.token = belongs to Operator
+84.token fa belongs to Identifier
+85.token / belongs to Operator
+86.token . belongs to punctuation
+87.token 0.7 belongs to Constant
+88.token ; belongs to punctuation
+89.token // do-while loop  belongs to Comment
+90.token } belongs to bracket
+91.token while belongs to ReservedWord
+92.token ( belongs to bracket
+93.token fa belongs to Identifier
+94.token < belongs to Comparator
+95.token 2 belongs to Constant
+96.token ) belongs to bracket
+97.token ; belongs to punctuation
+98.token for belongs to ReservedWord
+99.token ( belongs to bracket
+100.token id belongs to Identifier
+101.token = belongs to Operator
+102.token 10 belongs to Constant
+103.token ; belongs to punctuation
+104.token id belongs to Identifier
+105.token < belongs to Comparator
+106.token 0 belongs to Constant
+107.token ; belongs to punctuation
+108.token id belongs to Identifier
+109.token - belongs to Operator
+110.token ) belongs to bracket
+111.token ib belongs to Identifier
+112.token = belongs to Operator
+113.token ( belongs to bracket
+114.token int belongs to ReservedWord
+115.token ) belongs to bracket
+116.token ib belongs to Identifier
+117.token + belongs to Operator
+118.token . belongs to punctuation
+119.token 3.6 belongs to Constant
+120.token * belongs to Operator
+121.token fa belongs to Identifier
+122.token / belongs to Operator
+123.token id belongs to Identifier
+124.token ; belongs to punctuation
+125.token } belongs to bracket
+126.token if belongs to ReservedWord
+127.token ( belongs to bracket
+128.token ( belongs to bracket
+129.token id belongs to Identifier
+130.token <= belongs to Comparator
+131.token 2 belongs to Constant
+132.token ) belongs to bracket
+133.token | belongs to Operator
+134.token ( belongs to bracket
+135.token ib belongs to Identifier
+136.token >= belongs to Comparator
+137.token 3 belongs to Constant
+138.token ) belongs to bracket
+139.token ) belongs to bracket
+140.token fa belongs to Identifier
+141.token = belongs to Operator
+142.token ia belongs to Identifier
+143.token - belongs to Operator
+144.token *ic belongs to Pointer
+145.token / belongs to Operator
+146.token . belongs to punctuation
+147.token 3.6 belongs to Constant
+148.token ; belongs to punctuation
+149.token elseif belongs to ReservedWord
+150.token ( belongs to bracket
+151.token ( belongs to bracket
+152.token id belongs to Identifier
+153.token == belongs to Comparator
+154.token 0 belongs to Constant
+155.token ) belongs to bracket
+156.token ( belongs to bracket
+157.token ib belongs to Identifier
+158.token < belongs to Comparator
+159.token 3 belongs to Constant
+160.token ) belongs to bracket
+161.token ( belongs to bracket
+162.token ib belongs to Identifier
+163.token != belongs to Comparator
+164.token 0 belongs to Constant
+165.token ) belongs to bracket
+166.token ) belongs to bracket
+167.token ia belongs to Identifier
+168.token = belongs to Operator
+169.token fa belongs to Identifier
+170.token * belongs to Operator
+171.token fb_c belongs to Identifier
+172.token % belongs to Operator
+173.token 3 belongs to Constant
+174.token ; belongs to punctuation
+175.token elseif belongs to ReservedWord
+176.token ( belongs to bracket
+177.token ( belongs to bracket
+178.token id belongs to Identifier
+179.token > belongs to Comparator
+180.token 10 belongs to Constant
+181.token ) belongs to bracket
+182.token ( belongs to bracket
+183.token ib belongs to Identifier
+184.token == belongs to Comparator
+185.token 0 belongs to Constant
+186.token ) belongs to bracket
+187.token ) belongs to bracket
+188.token fa belongs to Identifier
+189.token = belongs to Operator
+190.token ia belongs to Identifier
+191.token ^ belongs to Operator
+192.token ( belongs to bracket
+193.token -5 belongs to Constant
+194.token ) belongs to bracket
+195.token ; belongs to punctuation
+196.token else belongs to ReservedWord
+197.token ia belongs to Identifier
+198.token = belongs to Operator
+199.token ( belongs to bracket
+200.token int belongs to ReservedWord
+201.token ) belongs to bracket
+202.token . belongs to punctuation
+203.token 0.7 belongs to Constant
+204.token * belongs to Operator
+205.token fb_c belongs to Identifier
+206.token / belongs to Operator
+207.token fa belongs to Identifier
+208.token ; belongs to punctuation
+209.token switch belongs to ReservedWord
+210.token ( belongs to bracket
+211.token cb belongs to Identifier
+212.token ) belongs to bracket
+213.token { belongs to bracket
+214.token /*switch case*/ belongs to Comment
+215.token case belongs to ReservedWord
+216.token ( belongs to bracket
+217.token 'A' belongs to Character
+218.token fb_c belongs to Identifier
+219.token = belongs to Operator
+220.token ( belongs to bracket
+221.token *ic belongs to Pointer
+222.token ) belongs to bracket
+223.token * belongs to Operator
+224.token fb_c belongs to Identifier
+225.token / belongs to Operator
+226.token fa belongs to Identifier
+227.token ; belongs to punctuation
+228.token case belongs to ReservedWord
+229.token ( belongs to bracket
+230.token 'E' belongs to Character
+231.token ib belongs to Identifier
+232.token = belongs to Operator
+233.token ia belongs to Identifier
+234.token + belongs to Operator
+235.token ib belongs to Identifier
+236.token - belongs to Operator
+237.token ( belongs to bracket
+238.token *ic belongs to Pointer
+239.token ) belongs to bracket
+240.token ; belongs to punctuation
+241.token case belongs to ReservedWord
+242.token ( belongs to bracket
+243.token 'H' belongs to Character
+244.token ib belongs to Identifier
+245.token = belongs to Operator
+246.token ( belongs to bracket
+247.token ia belongs to Identifier
+248.token ^ belongs to Operator
+249.token 2 belongs to Constant
+250.token ) belongs to bracket
+251.token % belongs to Operator
+252.token 3 belongs to Constant
+253.token ; belongs to punctuation
+254.token } belongs to bracket
+255.token scanf belongs to ReservedWord
+256.token ( belongs to bracket
+257.token " belongs to punctuation
+258.token %d belongs to format specifier
+259.token " belongs to punctuation
+260.token , belongs to punctuation
+261.token ) belongs to bracket
+262.token ; belongs to punctuation
+263.token /* scanf //                                                  scanf */ belongs to Comment
+264.token scanf belongs to ReservedWord
+265.token ( belongs to bracket
+266.token " belongs to punctuation
+267.token %c belongs to format specifier
+268.token " belongs to punctuation
+269.token , belongs to punctuation
+270.token ) belongs to bracket
+271.token ; belongs to punctuation
+272.token printf belongs to ReservedWord
+273.token ( belongs to bracket
+274.token " belongs to punctuation
+275.token Random  belongs to printed token
+276.token numbers:  belongs to printed token
+277.token %c belongs to format specifier
+278.token and  belongs to printed token
+279.token %d belongs to format specifier
+280.token %f belongs to format specifier
+281.token Done!\n" belongs to printed token
+282.token " belongs to punctuation
+283.token , belongs to punctuation
+284.token cb belongs to Identifier
+285.token , belongs to punctuation
+286.token ib belongs to Identifier
+287.token , belongs to punctuation
+288.token fa belongs to Identifier
+289.token ) belongs to bracket
+290.token ; belongs to punctuation
+291.token printf belongs to ReservedWord
+292.token ( belongs to bracket
+293.token " belongs to punctuation
+294.token %f belongs to format specifier
+295.token is belongs to Undefined token
+296.token  a float\t\\%c is a char\t%d\n", fb_c, ca, id) ;  belongs to skipped token
+297.token return belongs to ReservedWord
+298.token } belongs to bracket
+
+
+------------------------
+
+
+Total: 299 tokens
+
+
+Reserved word: 26
+include	(x2)
+main	
+char	
+int	(x3)
+float	
+if	
+else	
+elseif	(x2)
+for	(x2)
+while	(x2)
+do	
+return	
+switch	
+case	(x3)
+printf	(x2)
+scanf	(x2)
+
+
+Library name: 2
+<stdio.h>	
+<stdlib.h>	
+
+
+Comment: 3
+/* scanf //                                                  scanf */	
+/*switch case*/	
+// do-while loop 	
+
+
+Identifier: 57
+ca	
+cb	(x4)
+fa	(x12)
+fb_c	(x6)
+ia	(x10)
+ib	(x16)
+id	(x8)
+
+
+Constant: 23
+-5	(x2)
+0	(x5)
+0.7	(x2)
+10	(x3)
+2	(x5)
+3	(x4)
+3.6	(x2)
+
+
+Operator: 42
++	(x2)
+-	(x3)
+*	(x5)
+/	(x6)
+%	(x2)
+^	(x3)
+++	
+--	
+&	(x3)
+|	
+=	(x15)
+
+
+Comparator: 11
+!=	
+<	(x3)
+<=	(x2)
+==	(x2)
+>	(x2)
+>=	
+
+
+Bracket: 68
+(	(x31)
+)	(x27)
+{	(x5)
+}	(x5)
+
+
+Format specifier: 6
+%c	(x2)
+%d	(x2)
+%f	(x2)
+
+
+Pointer: 6
+*ic	(x6)
+
+
+Punctuation: 43
+"	(x7)
+#	(x2)
+,	(x10)
+;	(x24)
+
+
+Printed token: 4
+Done!\n"	
+Random 	
+and 	
+numbers: 	
+
+
+Undefined token: 1
+is	
+
+
+Skipped token: 1
+ a float\t\\%c is a char\t%d\n", fb_c, ca, id) ; 	
+
+
+Character: 4
+'A'	
+'E'	
+'H'	
+'Y'	
